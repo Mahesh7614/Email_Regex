@@ -8,8 +8,8 @@ namespace Email_Regex
     {
         public static void Pattern(string pattern)
         {
-            Regex code = new Regex(@"(abc)");
-            bool matches = code.IsMatch(pattern);
+            Regex email = new Regex(@"(abc)*[@](bridgelabz)");
+            bool matches = email.IsMatch(pattern);
 
             if (matches == true)
             {

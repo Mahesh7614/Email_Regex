@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter Email ID : ");
-            string email = Console.ReadLine();
-            Regex_Pattern.Pattern(email);
+            Regex_Pattern.Pattern("abc@bridgelabz");
         }
     }
 }
